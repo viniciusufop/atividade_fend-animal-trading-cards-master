@@ -1,0 +1,54 @@
+
+.card {
+    /* configuracao do box */
+    box-shadow: #F0F0F0 5px 5px;
+    /*configuracoes de tamanho e posicao e espaco*/
+    width: 320px;
+    height: 100%;
+    margin: 10px;
+    /* Dados da fonte do card*/
+    font-family:'Times New Roman', Times, serif;
+    font-size: small;
+}
+
+.borda{
+    /*configuracao de borda do cartao*/
+    border-style:solid;
+    border-width: 1px;
+    border-color:#E0E0E0;
+}
+
+.imagem {
+    width: 300px;
+    height: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.elemento{
+    /* controle do tamanho dos elementos internos ao card */
+    width: 300px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+.fato{
+    font-style: italic;
+}
+
+.titulo{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-transform: uppercase;
+}
+
+span {
+    text-align: left;
+    font-weight:  bolder;
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+}
